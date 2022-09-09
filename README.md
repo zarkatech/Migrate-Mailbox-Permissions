@@ -1,5 +1,5 @@
 # Migrate-Mailbox-Permissions
-PowerShell scripts to audit and migrate existing mailbox and delegate permissions from on-premises Exchange or between Exchange Online tenants.
+# PowerShell scripts to audit and migrate existing mailbox and delegate permissions from on-premises Exchange or between Exchange Online tenants.
 
 Run “Audit-MailboxPermissions.ps1” script in source environment to export mailbox access and delegate permissions so they can be re-applied in the target environment. Script offers the following preference variables which can be toggled or customized depending on scenario requirements:
 * $UseImportFile = $true / $false
