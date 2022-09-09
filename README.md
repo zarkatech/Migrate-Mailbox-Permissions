@@ -21,7 +21,7 @@ NOTE: Enumerating and auditing delegate permissions for every mailbox folder can
 
 NOTE: Script can expand security or distributions group memberships to re-apply explicit user permissions but is not necessarily required to re-apply static mail group permissions.
 
-Run “Apply-MailboxPermissions.ps1” in target environment to re-apply mailbox access and delegate permissions. Script offers the following preference variables which can be toggled or customized based on scenario requirements:
+Run “Apply-MailboxPermissions.ps1” in target environment to re-apply mailbox access and delegate permissions collected from source environment. Script offers the following preference variables which can be toggled or customized based on scenario requirements:
 * $BatchName = short string to identify batch process, log, or export content
 * $IncludeMailboxAccess = $true / $false
 * $IncludeSendAs = $true / $false
