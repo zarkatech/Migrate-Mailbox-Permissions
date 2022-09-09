@@ -32,5 +32,3 @@ Run “Apply-MailboxPermissions.ps1” in target environment to re-apply mailbox
 * $Debug = $true / $false
 
 NOTE: Script offers detailed logging output and "WhatIf" debugging for dry-run analysis and error remediation by setting $Debug preference variable to $true.
-
-
