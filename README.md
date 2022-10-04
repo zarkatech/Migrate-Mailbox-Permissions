@@ -20,9 +20,7 @@ Run “Audit-MailboxPermissions.ps1” script in source environment to export ma
 * $ExpandDistributionGroups = $true / $false
 
 NOTE: Enumerating and auditing delegate permissions for every mailbox folder can take considerable time, so the preference variable $IncludeCommonFoldersOnly is set to $true by default and only audits delegate permissions for Top of Information Store, Inbox, and Calendar.
-
-NOTE: Any on-premises security groups must be mail-enabled and sychronized to Exchange Online to re-apply group permissions.
-
+NOTE: Any on-premises security groups must be mail-enabled and sychronized to Exchange Online to re-apply mailbox permissions that don't already use distribution groups.
 NOTE: Script can expand security or distributions group memberships to re-apply explicit user permissions but is not required or necessarily recommended.
 
 STEP 2: APPLY TARGET MAILBOX PERMISSIONS
